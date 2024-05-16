@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>main page</title>
+    <link rel="stylesheet" href="./top_style.css">
+    <link rel="stylesheet" href="./body_style.css">
+    <script src="./init.js"></script>
+</head>
+<body onload="init()">
+    <div id="top-container" aria-label="top field">
+        <div id="logo">
+            <a href="https://www.facebook.com/" target="_blank"><img src="./img_folder/fb-圖案.png" id="icon"></a>
+        </div>
+        <button id="first-top-button" class="hover_button" onclick="load_data('資訊')">資訊</button>
+        <button id="second-top-button" class="hover_button" onclick="load_data('關於')">關於</button>
+        <button id="third-top-button" class="hover_button" onclick="load_data('相片')">相片</button>
+    </div>
+    <div id="body_cotainer">
+        <div id="mainPage_picture_border">
+            <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/255054228_1064573487649744_6877153312350557225_n.jpg?stp=dst-jpg_p960x960&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=k91jepY9dWYQ7kNvgGS4Zpe&_nc_ht=scontent-tpe1-1.xx&cb_e2o_trans=q&oh=00_AYDj8_-Jy91YaNaOFl2EgqmU9p-CYfj0aFKXKjR1kpOf7A&oe=664B805D"
+            id="mainPage_picture">
+        </div>
+        <div id="user_information_container">
+            <div id="avatar">
+                <a href="https://www.facebook.com/profile.php?id=100022913083539" target="_blank"><img src="https://scontent.frmq2-1.fna.fbcdn.net/v/t39.30808-1/331754361_566048845260514_4872508058190153590_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pJDV3b51wIsQ7kNvgE1pHtD&_nc_ht=scontent.frmq2-1.fna&cb_e2o_trans=q&oh=00_AYCzGAjoVZnwDfKOvWAbd1Au6gu9RjXZYt2vZHefykIC9Q&oe=664B8678"
+                id="inner_avatar"></a>
+            </div>
+            <div id="user_information">
+                簡宥庭
+            </div>
+        </div>
+        <div id="content">
+            <div id="container" style="width: 760.78px;">
+                <h2>基本信息:</h2>
+                <ul>
+                    <li>姓名: 簡宥庭</li>
+                    <li>年齡: 18</li>
+                    <li>性別: 女</li>
+                    <li>國籍: Taiwan</li>
+                    <li>個性: 時好時壞，難以捉摸，當月經期來的時候會變得極度不穩定</li>
+                    <li>居住地: 台中市</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

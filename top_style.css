@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "簡宥體";
+    src: url("./cjkFonts_allseto_v1.11.ttf");
+}
+
+#top-container{
+    background-color: white;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    border-bottom: 1px black solid;
+}
+
+#padding-top{
+    width: 20px;
+}
+
+#logo{
+    display: inline;
+    height: 100%;
+    width: 75px;
+    margin-left: 16px;
+}
+
+#icon{
+    width: 100%;
+    height: 100%;
+}
+
+#first-top-button,#second-top-button,#third-top-button{
+    border: 0px black solid;
+    background-color: #b5b6b8;
+    border-radius: 1000px;
+    font-weight: 800;
+    font-size: 25px;
+    transition:all 0.3s;
+    height: 100%;
+    width: 75px;
+    align-self: center;
+}
+
+.hover_button:hover{
+    background-color: #fa0 !important;
+}
